@@ -10,7 +10,7 @@ const Header = () => {
         <Link to="/">
           <img src={logo} alt="MyIndia" className="h-2 sm:h-8 md:h-10 lg:h-12" /> 
         </Link>
-        <nav className='text-xl text-black'>
+        <nav className='text-xl text-black sm:mx-3 md:mx-4 lg:mx-5'>
           <Link to="/products" className=" mx-5">Home</Link>
           <Link to="/products" className=" mx-5">Products</Link>
           <Link to="/cart" className=" mx-5">Cart</Link>
