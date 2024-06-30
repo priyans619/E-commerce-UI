@@ -9,7 +9,7 @@ const Cart = () => {
   const cartItemCount = cart.length;
 
   return (
-    <div className="container mx-auto mt-4">
+    <div className="container mx-auto mt-24">
       <h2 className="text-center mb-4">
         Your Cart ({cartItemCount})
       </h2>
