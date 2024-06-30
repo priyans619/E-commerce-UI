@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-700 mb-2">${product.price}</p>
         <p className="text-yellow-400 mb-2">Ratings {product.rating}/5</p>
       </div>
-      <button onClick={handleAddToCart} className="bg-gray-500 text-gray-500 p-2 rounded mt-4" style={{ background: 'linear-gradient(239.26deg, #DDEEED 0.17%, #FDF1E0 0.92%)' }}>Add to Cart</button>
+      <button onClick={handleAddToCart} className=" text-black p-2 rounded mt-4" style={{ background: 'linear-gradient(239.26deg, #DDEEED 0.17%, #FDF1E0 0.92%)' }}>Add to Cart</button>
     </div>
   );
 };
