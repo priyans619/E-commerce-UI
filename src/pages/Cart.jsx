@@ -17,7 +17,7 @@ const Cart = () => {
         <p>Your cart is empty.</p>
       ) : (
         cart.map(item => (
-          <div key={item.id} className="border p-4 mb-4 rounded-lg flex items-center">
+          <div key={item.id} className="border p-4 mb-4 rounded-lg flex items-center bg-gray-100">
             <div className="flex-grow">
               <h3 className="text-xl font-bold">{item.title}</h3>
               <p>${item.price}</p>
